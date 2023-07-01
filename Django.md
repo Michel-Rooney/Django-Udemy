@@ -1,0 +1,22 @@
+## Urls.py
+app_name = 'recipes': Namespace para urls Ex.: recipes:home
+
+## {% for %}
+{% empty %} : Se caso tiver vazio imprima isso
+
+## Test
+**Instalar:** pip install pytest pytest-django <br>
+**pytest -rP:** Mostra as capturas na execução do test <br>
+**pytest -k 'nome do test':** Executa um test especifico <br>
+**self.fail():** Fazer seu teste falhar pra lembrar <br>
+**from unittest import skip** <br>
+- **@skip('WIP') - Work in progress**
+**coverage:**
+- pip install coverage
+- .coveragerc
+- coverage run -m pytest 
+- coverage html
+
+## Outros
+python manage.py shell : Shell interativo do django
+recipe._meta.get_fields()
