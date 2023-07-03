@@ -18,5 +18,8 @@ app_name = 'recipes': Namespace para urls Ex.: recipes:home
 - coverage html
 
 ## Outros
-python manage.py shell : Shell interativo do django
-recipe._meta.get_fields()
+python manage.py shell : Shell interativo do django <br>
+recipe._meta.get_fields() <br>
+### Duplicar receita
+1. recipe.id = None
+2. recipe.save()
