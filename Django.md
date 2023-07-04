@@ -23,3 +23,5 @@ recipe._meta.get_fields() <br>
 ### Duplicar receita
 1. recipe.id = None
 2. recipe.save()
+### Gerador de senhas
+python -c "import string as s;from random import SystemRandom as sr;print(''.join(sr().choices(s.ascii_letters + s.punctuation, k=64)))"
