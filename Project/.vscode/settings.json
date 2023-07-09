@@ -10,4 +10,5 @@
       "--errors-only"
     ],
     "python.analysis.typeCheckingMode": "off",
+    "editor.fontFamily": "monospace",
 }

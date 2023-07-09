@@ -132,3 +132,5 @@ make_recipe.txt
 
 # Add again for course purpose
 !db.sqlite3
+!static/
+!media/

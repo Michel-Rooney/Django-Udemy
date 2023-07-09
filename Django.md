@@ -8,6 +8,8 @@ app_name = 'recipes': Namespace para urls Ex.: recipes:home
 **Instalar:** pip install pytest pytest-django <br>
 **pytest -rP:** Mostra as capturas na execução do test <br>
 **pytest -k 'nome do test':** Executa um test especifico <br>
+**pytest -m 'functional_test'**: Roda os test com a tag "functional_test" <br>
+**pytest -m 'not functional_test'**: **Nao** roda os test com a tag "functional_test" <br>
 **self.fail():** Fazer seu teste falhar pra lembrar <br>
 **from unittest import skip** <br>
 - **@skip('WIP') - Work in progress**
