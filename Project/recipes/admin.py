@@ -1,4 +1,5 @@
 from django.contrib import admin
+
 from .models import Category, Recipe
 
 
@@ -19,6 +20,7 @@ class RecipeAdmin(admin.ModelAdmin):
     prepopulated_fields = {
         "slug": ('title',)
     }
+    autocomplete_fields = ['tags', 'author']
 
 
 admin.site.register(Category, CategoryAdmin)
