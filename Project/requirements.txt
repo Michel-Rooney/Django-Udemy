@@ -6,6 +6,7 @@ coverage==7.2.7
 Django==4.2.2
 django-debug-toolbar==4.1.0
 djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
 EasyProcess==1.1
 entrypoint2==1.1
 exceptiongroup==1.1.1
@@ -30,6 +31,7 @@ PyAutoGUI==0.9.54
 pycodestyle==2.10.0
 pyflakes==3.0.1
 PyGetWindow==0.0.9
+PyJWT==2.8.0
 PyMsgBox==1.0.9
 pyperclip==1.8.2
 PyRect==0.2.0

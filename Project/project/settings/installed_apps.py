@@ -9,6 +9,7 @@ INSTALLED_APPS = [
     # A gente tem apps também
     # Django rest framework
     'rest_framework',
+    'rest_framework_simplejwt',
     # Estes são nossos apps
     'recipes',
     'authors',
